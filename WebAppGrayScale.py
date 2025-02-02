@@ -11,3 +11,19 @@ if camera_image is not None:
 else:
     st.warning("Please capture an image to proceed.")
 
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.write("For Reporting an issue, Kindly email at tanishqmirdha2005@gmail.com .",
+        unsafe_allow_html=True)
+st.write("Do not message <b>Unnecessarily</b>.Only message if you are facing any <b>problem<b>.",
+        unsafe_allow_html=True)
+st.write("Otherwise it can be problematic for \"You\"",
+        unsafe_allow_html=True)
