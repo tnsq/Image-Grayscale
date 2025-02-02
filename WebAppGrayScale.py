@@ -1,7 +1,8 @@
 import streamlit as st
 from PIL import Image
-#start the camera
-camera_image=st.camera_input(label="Camera")
+with st.expander("Start camera"):
+    #start the camera
+    camera_image=st.camera_input(label="Camera")
 uploaded_image = st.file_uploader("Or upload an image", type=["jpg", "jpeg", "png"])
 
 
